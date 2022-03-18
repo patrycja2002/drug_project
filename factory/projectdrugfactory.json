@@ -1,0 +1,9 @@
+{
+	"name": "projectdrugfactory",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cf0e2c8e-0e7b-4166-b6c1-38cc8b7bba66",
+		"tenantId": "aa35682e-b1ce-435d-82d0-6f52507ec3bd"
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"name": "AzureSqlTable_drug",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SQL_Database_drug",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "n",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Product_number",
+				"type": "varchar"
+			},
+			{
+				"name": "Company",
+				"type": "varchar"
+			},
+			{
+				"name": "Name",
+				"type": "varchar"
+			},
+			{
+				"name": "Full_name",
+				"type": "varchar"
+			},
+			{
+				"name": "Transaction_date",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "Quantity",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Price",
+				"type": "float",
+				"precision": 15
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "drug"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
