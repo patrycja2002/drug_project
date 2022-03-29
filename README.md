@@ -1,5 +1,5 @@
 # Documentation
-## The aim of the project was to transform the data in order to obtain a total amount for each person.
+## The aim of the project was to turn the data into the total amount spent on drugs for each person.
 ### In my project use 
 - PySpark, 
 - Pandas, 
